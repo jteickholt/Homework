@@ -20,6 +20,7 @@ decmonth=''
 
 
 # Read in the CSV file
+
 with open(budget_csv, 'r') as csvfile:
 
     # Split the data on commas
@@ -45,7 +46,9 @@ with open(budget_csv, 'r') as csvfile:
         prevpl=int(row[1])
 
         # print(row, change)
+        
 avgchange=round(totchange/(nomonths - 1),2)
+
 # print(f"The total P/L is {total} and the number of months is {nomonths}")
 
 print("Financial Analysis")
