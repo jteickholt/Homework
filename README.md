@@ -1,2 +1,2 @@
 # Homework
-Contains homework staring with week 3
+Contains homework starting with week 3. 
