@@ -59,6 +59,25 @@ print(f"Average Change: ${avgchange}")
 print(f"Greatest Increase in Profits: {incmonth} (${greatinc})")
 print(f"Greatest Decrease in Profits: {decmonth} (${greatdec})")
 
+import sys
+
+f=open('c:\\users\jeickholt\practice.txt', 'w')
+std=sys.stdout
+sys.stdout=f
+
+
+print("Financial Analysis")
+print("-----------------------------")
+print(f"Total Months: {nomonths}")
+print(f"Total: ${total}")
+print(f"Average Change: ${avgchange}")
+print(f"Greatest Increase in Profits: {incmonth} (${greatinc})")
+print(f"Greatest Decrease in Profits: {decmonth} (${greatdec})")
+
+f.close()
+sys.stdout=std
+
+
 
 
 
