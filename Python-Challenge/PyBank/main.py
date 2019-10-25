@@ -61,7 +61,7 @@ print(f"Greatest Decrease in Profits: {decmonth} (${greatdec})")
 
 import sys
 
-# f=open('c:\\users\jeickholt\practice.txt', 'w')
+# f=open('.\pybank.txt', 'w')
 
 f=open('.\practice.txt', 'w')
 std=sys.stdout

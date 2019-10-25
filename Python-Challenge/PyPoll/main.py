@@ -38,16 +38,47 @@ with open(election_csv, 'r') as csvfile:
 
 totalvotes=0
 
-# Why doesn't the for loop below work?
-# for i in votelist: 
+
 
 for i in range(len(votelist)):
-   totalvotes = totalvotes + int(votelist[i])
+    totalvotes = totalvotes + int(votelist[i])
+
+
+percvote=[]
+percvotei=0.0
+for i in range(len(votelist)):
+    percvotei=round((int(votelist[i])/totalvotes)*100 , 3)
+    print(percvotei)
+    percvote.append(percvotei)
+
 
 # sort the candidates by number of votes.  they are already in the correct order
 # but this code would fix it if they weren't
 
 candlist, votelist=zip(*sorted(zip(candlist,votelist), key=lambda pair: pair[1], reverse=True))
+
+#print output
+print()
+print("Election Results")
+print()
+print("_"*20)
+print()
+print(f"Total Votes: {totalvotes}")
+print("_"*20)
+print()
+
+for i in range(len(candlist)): 
+    print(f"{candlist[i]} : {percvote[i]}% ({votelist[i]})")
+print()
+print("_"*20)
+print()
+print(f"Winner: {candlist[0]}")
+print()
+print("_"*20)
+
+
+
+
 
 
 
