@@ -1,0 +1,6 @@
+Contents of Python-Challenge (Week 3 Homework)
+
+1.  The Python-Challenge folder contains two sub-folders, PyBank and PyPoll.  Each of these folders contains the following:
+	
+	a.  main.py:  Contains the Python code for each part of the assignment.
+	b.  A text file that is the output of the code for each part of the assignment.
