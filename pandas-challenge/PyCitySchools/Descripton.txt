@@ -1,0 +1,17 @@
+Descripton of the PyCity School Data
+
+There are severable observable trends that are seen in the data.  The include:
+
+1.  The small and medium sized schools have a significantly higher Overall Passing Rate than the large schools.
+
+2.  The Charter schools have a significantly higher Overall Passing Rate than the District schools.  
+From list of the highest performing schools and the lowest performing schools, there is clearly an overlap between
+the school size and the school type, with Charter schools being smaller and District schools being larger. So it is
+hard to say here whether the higher passing rate is due to smaller schools or to the school type.  Likely, it is a
+combination of the two.
+
+3.  Another trend that is shown is that the overall passing rate tends to be higher in schools that spend less 
+per student.  This is counterintuitive.  Genarally, you would think that schools that spend more per
+student would have higher passing rates than schools that spent less.  We should further investigate the District 
+schools to see if they are overpaying their administrators and wasting money traveling to school administrator 
+conferences in Hawaii.   
